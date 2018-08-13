@@ -1,0 +1,241 @@
+body {
+    min-height: 100%;
+    min-width: 1090px;
+    background-color: #fff;
+}
+
+.header_outer {
+    height: 240px;
+    z-index: 2;
+    position: relative;
+}
+
+.header_nav {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    background-color: #333;
+    z-index: 4;
+}
+
+.header_nav_inner {
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_nav_left {
+    float: left;
+}
+
+.header_nav_right {
+    float: right;
+}
+
+.header_nav_left_item {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    color: #ccc;
+}
+
+.header_nav_left_itemTEXT {
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.header_nav_left_itemTEXT a {
+    display: inline-block;
+    color: #ccc;
+}
+
+.header_nav_left_list {
+    margin-left: 20px;
+    overflow: hidden;
+    height: 36px;
+    line-height: 36px;
+    background: url(../images/d132c2561f18f1149d566a60d05fd9b7.gif) center left no-repeat;
+}
+
+.header_nav_left_listUL {
+    position: relative;
+    top: 0;
+}
+
+.header_nav_left_listLI {
+    padding-left: 26px;
+    height: 36px;
+}
+
+.header_nav_left_listLI a {
+    color: #b4a078;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.header_nav_right_item {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    color: #ccc;
+}
+
+.header_nav_right_text {
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.header_nav_right_item .shuxian ::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    height: 16px;
+    border-left: 1px solid #5c5c5c;
+    vertical-align: middle;
+}
+
+.header_nav_right_text a {
+    color: #ccc;
+}
+
+.header_main {
+    position: relative;
+    height: 204px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+}
+
+.header_main_inner {
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_main_logo {
+    position: absolute;
+    top: 50px;
+    left: 455px;
+}
+
+/* 图标 */
+
+.header_main_logoB,
+.header_main_carbuy_icon，
+.header_main_carbuy_icon2,
+.header_main_search_icon {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.header_icon {
+    background-image: url(../images/hxm%2Fyanxuan-component%2Fp%2F20170601%2Fstyle%2Fimg%2Fx1%2Ficon-yxtop-sc6353bfedb-173a41cd9d.png);
+}
+
+/*  */
+
+.header_main_logoB {
+    background-position: 0 -146px;
+    height: 60px;
+    width: 180px;
+}
+
+.header_main_carbuyOUTER {
+    position: relative;
+    margin-top: 65px;
+    margin-right: 9px;
+    margin-left: 20px;
+    float: right;
+}
+
+.header_main_carbuy {
+    position: relative;
+    cursor: pointer;
+    width: 34px;
+    height: 32px;
+}
+
+.header_main_carbuy_icon1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-position: 0 -113px;
+    height: 23px;
+    width: 23px;
+}
+
+.header_main_carbuy_icon2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1;
+    background-position: 0 -51px;
+    height: 19px;
+    width: 19px;
+}
+
+.header_main_search{
+    position: relative;
+    margin-top: 75px;
+    float: right;
+    width: 272px;
+    height: 22px;
+}
+
+#header_main_searchInput{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    border: 0;
+    border-bottom: 1px solid #D8CEBC;
+    font-size: 12px;
+    width: 252px;
+    outline: 0;
+    overflow: hidden;
+    background: 0 0;
+}
+
+#header_main_searchKey{
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    color: #999;
+    display: block;
+    line-height: 1;
+    cursor: text;
+    touch-action: none;
+    -ms-touch-action: none;
+    pointer-events: none;
+    -ms-pointer-events: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 230px;
+    text-overflow: ellipsis;
+}
+
+.header_main_search_icon{
+    width: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.header_main_search_icon{
+    background-position: 0 -291px;
+    height: 20px;
+    width: 20px;
+}
