@@ -239,10 +239,7 @@ a{
     line-height: 1;
     cursor: text;
     touch-action: none;
-    -ms-touch-action: none;
     pointer-events: none;
-    -ms-pointer-events: none;
-    -webkit-user-select: none;
     white-space: nowrap;
     overflow: hidden;
     width: 230px;
@@ -679,8 +676,27 @@ itempic{
     height: 265px;
 }
 
+.new_itempic1{
+    opacity: 1;
+}
+
 .new_itempic2{
-    display: none!important;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.new_item:hover .new_itempic1{
+    opacity: 0;
+}
+
+.new_item:hover .new_itempic2{
+    opacity: 1;
+}
+
+.new_item:hover .new_itemtext{
+    background-color: #f4f0ea;;
 }
 
 .common_tag{
