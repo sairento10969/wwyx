@@ -1,7 +1,26 @@
 body {
     min-height: 100%;
     min-width: 1090px;
+    height: 19990px;
     background-color: #fff;
+    font-size: 13px;
+}
+
+
+/* *{
+    box-sizing: border-box;
+} */
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.header_outer,
+.main_outer,
+.main_inner{
+    width: 100%;
+    margin: 0 auto;
 }
 
 .header_outer {
@@ -127,7 +146,9 @@ body {
 .header_main_logoB,
 .header_main_carbuy_icon，
 .header_main_carbuy_icon2,
-.header_main_search_icon {
+.header_main_search_icon,
+.fixedservice_icon,
+.fixedTOP_icon {
     display: inline-block;
     overflow: hidden;
     vertical-align: top;
@@ -238,4 +259,706 @@ body {
     background-position: 0 -291px;
     height: 20px;
     width: 20px;
+}
+
+.header_main_ul{
+    line-height: 1;
+    font-weight: 700;
+    position: absolute;
+    height: 30px;
+    bottom: 21px;
+    width: 100%;
+}
+
+
+.header_main_li-1ST{
+    margin-left: 0;
+}
+
+
+.header_main_li{
+    float: left;
+    margin-top: 6px;
+    padding: 0 24px;
+    font-size: 14px;
+}
+
+.header_main_liTEXT{
+    display: block;
+    padding-bottom: 6px;
+    color: #000;
+}
+
+.header_main_liTEXT-1ST,
+.header_main_liTEXT:hover{
+    color: #b4a078;
+    border-bottom: 3px solid #b4a078;
+}
+
+.header_main_lidropdown{
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    width: 100%;
+    padding-left: 50%;
+    background-color: transparent;
+}
+
+.header_main_lidropdown_inner{
+    position: relative;
+    padding-top: 33px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+}
+
+.header_main_lidropdown_list{
+    display: inline-block;
+    white-space: nowrap;
+    width: 950px;
+}
+
+.header_main_lidropdown_item{
+    float: left;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    width: 44px;
+    margin-right: 102px;
+}
+
+.dropdown_click{
+    display: block;
+}
+
+.dropdown_icon{
+    height: 44px;
+    width: 44px;
+    border: 0;
+    vertical-align: top;
+}
+
+.dropdown_text{
+    font-size: 14px;
+    line-height: 1;
+    width: 100px;
+    margin-left: -28px;
+    padding-top: 10px;
+}
+
+.dropdown_click{
+    color: #333;
+}
+
+.dropdown_click:hover{
+    color: #b4a078;    
+}
+
+.header_main_hide{
+    border-left: 1px solid #ccc;
+    height: 20px;
+    margin-top: 3px;
+    float: left;
+}
+/* 页首部分结束 */
+.topAD_button{
+    background-image: url(../images/hxm%2Fyanxuan-web%2Fp%2F20150730%2Fstyle%2Fimg%2Fx1%2Ficon-normal-sb88468985b-a0eb67fda8.png);
+    background-repeat: no-repeat;
+}
+/* 图标设置 */
+
+/*  */
+
+.main_outer{
+    position: relative;
+    z-index: 1;
+}
+
+.main_topAD{
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    background: #f5f5f5;
+    z-index: 1;
+    display: block;
+}
+
+.topAD_button{
+    position: absolute;
+    z-index: 9;
+    top: 200px!important;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 80;
+    background-color: #D0C4AF;
+    border-radius: 500px;
+    z-index: 999;
+}
+
+.buttonl{
+    display: block;
+    left: 76px;
+    background-position: 0 -4874px;
+}
+
+.buttonr{
+    display: block;
+    right: 76px;
+    background-position: 0 -5054px;
+}
+
+.topAD_pic{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    overflow: hidden;
+    height: 420px!important;
+    z-index: 1;
+}
+
+.topAD_dots{
+    position: absolute;
+    bottom: 4px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    z-index: 999;
+}
+
+.topAD_dots li{
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 8px 10px;
+    padding: 0;
+    cursor: pointer;
+}    
+
+.topAD_dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 500px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid #cecece;
+    background: #fff;
+}
+
+.topAD_dots li.topAD_dots_active button{
+    box-shadow: 0 0 0 4px #dfcead;
+    background: #a7936e;
+    border-radius: 500px;
+    border: none;
+}
+
+.main_row{
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.main_factory{
+    margin-top: 30px;
+}
+
+.common_header{
+    padding-bottom: 20px;
+    height: 28px;
+}
+
+.common_headerLeft{
+    float: left;
+    line-height: 1;
+}
+
+.main_title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+    margin-right: 20px;
+}
+
+.main_subtitle{
+    padding-top: 13px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.common_headerRight{
+    float: right;
+    line-height: 1;    
+}
+
+.moreItems{
+    display: inline-block;
+    line-height: 1;
+    margin-left: 30px;
+    padding-top: 14px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.factory_main{
+    overflow: hidden;    
+}
+
+.factory_main_link{
+    width: 357px;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.factory_main .factory_main_link1st{
+    margin-left: 0;
+}
+
+.factory_main_linkL{
+    height: 320px;
+}
+
+.factory_main_linkS{
+    height: 155px;
+}
+
+.factory_main .factory_main_linkMiddle{
+    width: 357px;
+    margin-left: 9px!important;
+}
+
+.factory_main_linkLast{
+    margin-top: 10px;
+}
+
+.factory_main_linkname{
+    font-size: 24px;
+    margin: 48px 0 19px;
+    line-height: 1;
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    z-index: 3;
+    color: #666;
+}
+
+.linkname_Tag{
+    position: absolute;
+    top: -3px;
+    font-size: 11px;
+    margin-left: 2px;
+    text-align: center;
+    line-height: 19px;
+    width: 32px;
+    height: 21px;
+    color: #fff;
+    background: url(../images/qipao.png) center no-repeat;
+}
+
+.factory_main_linkprice{
+    font-size: 14px;
+    padding-top: 17px;
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid #666;
+    position: relative;
+    z-index: 3;
+    color: #666;
+}
+
+.factory_main_linkpic{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    transition: transform 1s;
+    z-index: 1;
+}
+
+.factory_main_linkS .factory_main_linkname{
+    font-size: 20px;
+    margin: 32px 0 10px 20px;
+    text-align: left;
+}
+
+.factory_main_linkS .factory_main_linkprice{
+    padding-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.main_new{
+    height: 510px;
+    padding-top: 60px;
+}
+
+.new_main{
+    width: 1090px;
+    overflow: hidden;
+    height: 344px;
+}
+
+.new_outer{
+    width: 1100px;
+    height: 100%;
+}
+
+.newbutton{
+    position: absolute;
+    z-index: 9;
+    top: 200px!important;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 80;
+    background-color: #D0C4AF;
+    border-radius: 500px;
+    background-image: url(../images/hxm%2Fyanxuan-web%2Fp%2F20150730%2Fstyle%2Fimg%2Fx1%2Ficon-normal-sb88468985b-a0eb67fda8.png);
+    background-repeat: no-repeat;
+}
+
+.newbutton_l{
+    left: -60px;
+    background-position: 0 -4874px;
+}
+
+.newbutton_r{
+    right: -60px;
+    background-position: 0 -5054px;
+}
+
+.new_inner{
+    position: relative;    
+    height: 100%;
+    
+}
+
+.new_itembox{
+    width: 41800px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.new_item{
+    width: 265px!important;
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+}
+
+itempic{
+    position: relative;
+    margin-bottom: 8px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.new_itempic0{
+    display: block;
+    margin: 0 auto;
+    width: 265px;
+    height: 265px;
+}
+
+.new_itempic2{
+    display: none!important;
+}
+
+.common_tag{
+    height: 20px;
+    font-size: 0;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.itemTag{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: #e36844;
+    margin-left: 6px;
+}
+
+.itemTagRE{
+    background-color: #F28F2D;
+}
+
+.new_name{
+    padding: 0 10px;
+    margin-bottom: 4px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.new_price{
+    padding: 1px 0 9px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #d4282d;
+    margin: 0;
+    text-align: center;
+}
+
+.PresentPrice{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+}
+
+.OriginalPrice{
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    position: relative;
+    top: 2px;
+}
+
+.main_popular{
+    padding: 60px 0;
+    background: #f4f0ea;
+}
+
+.popular_Tab{
+    overflow: hidden;
+    padding-left: 13px;
+    float: left;
+}
+
+.popular_Tab_item{
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 55px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.popular_Tab .popular_Tab_item-active{
+    border-bottom: 2px solid #b4a078;
+}
+
+.popular_Tab .popular_Tab_item-active a{
+    color: #b4a078;
+}
+
+.popular_main{
+    clear: both;
+    overflow: hidden;
+}
+
+.popular_item{
+    background-color: #fff;
+    overflow: hidden;
+    width: 223px;
+    height: 260px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.popular_main .popular_item1st{
+    width: 390px;
+    height: 530px;
+    margin-left: 0;
+}
+
+.popular_itemlast{
+    margin-top:10px;
+}
+
+.popular_item .itempic{
+    background: 0 0;
+    border-bottom: 1px solid #F4F0EA;
+    margin-bottom: 8px;
+}
+
+.popular_item1st .itempic{
+    margin-bottom: 18px;
+}
+
+.popular_item .itempic img{
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.popular_item1st .itempic img{
+    width: 320px;
+    height: 320px;
+    margin: 40px 35px;
+}
+
+.popular_item .itemtext .common_tag{
+    margin-bottom: 4px;
+}
+
+.popular_item1st .itemtext .common_tag{
+    margin-bottom: 10px;
+}
+
+.popular_item .itemtext .popular_name{
+    height: 20px;
+    line-height: 18px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.popular_item1st .itemtext .popular_name{
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+
+.popular_item .itemtext .popular_price{
+    line-height: 13px;
+    color: #d4282d;
+    padding: 1px 0 9px;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.popular_item1st .itemtext .popular_price{
+    font-size: 18px;
+}
+
+.fixedTools{
+    position: fixed;
+    bottom: 200px;
+    z-index: 99;
+    right: 0;
+}
+
+.fixedAD{
+    position: absolute;
+    top: -153px;
+    display: block;
+}
+
+.fixedAD_Pic{
+    width: 72px;
+}
+
+.fixednew{
+    display: block;
+    width: 72px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    height: 140px;
+    padding-top: 0;
+}
+
+.fixednew1{
+    line-height: 17px;
+    color: #666;
+}
+
+.fixednew2{
+    line-height: 17px;
+    color: #BC3B3B;
+}
+
+.fixednew::after{
+    content: '';
+    border-bottom: 1px solid #eaeaea;
+    position: absolute;
+    display: block;
+    left: 6px;
+    bottom: 0;
+    width: 60px;
+}
+
+.fixedservice{
+    display: block;
+    width: 72px;
+    height: 82px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+}
+
+.fixedservice_icon{
+    background-position: 0 -87px;
+    height: 31px;
+    width: 32px;
+    background-image: url(../images/z-1.png);
+}
+
+.fixed_text{
+    line-height: 20px;
+    font-size: 14px;
+    margin: 8px auto 0;
+    position: relative;
+}
+
+.fixedTOP{
+    position: absolute;
+    bottom: -60px;
+    width: 72px;
+    height: 60px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+}
+
+.fixedTOP::before{
+    content: '';
+    border-bottom: 1px solid #eaeaea;
+    position: absolute;
+    display: block;
+    left: 6px;
+    top: 0;
+    width: 60px;
+}
+
+.fixedTOP_icon{
+    background-image: url(../images/z-1.png);
+    background-position: 0 -233px;
+    height: 15px;
+    width: 24px;
 }
