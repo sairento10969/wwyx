@@ -1,9 +1,11 @@
 body {
     min-height: 100%;
     min-width: 1090px;
-    height: 19990px;
     background-color: #fff;
     font-size: 13px;
+    font-family: "Microsoft YaHei","微软雅黑";
+    
+    /* position: relative; */
 }
 
 
@@ -407,11 +409,14 @@ a{
 
 .topAD_pic{
     position: relative;
-    width: 100%;
     top: 0px;
     overflow: hidden;
     height: 420px!important;
     z-index: 1;
+}
+
+.topAD_picimg{
+    height: 420px;  
 }
 
 .topAD_dots{
@@ -977,4 +982,248 @@ itempic{
     background-position: 0 -233px;
     height: 15px;
     width: 24px;
+}
+
+.new_tips{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    font-size: 12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    padding: 0 4px;
+    line-height: 18px;
+    background-color: #f4f0ea;
+    z-index: 99;
+}
+
+.factory_main_link:hover img,
+.main_popular .itempic:hover img{
+    transform: scale(1.1);
+    transition-duration: 1500ms;
+}
+
+.factory_main_link img,
+.main_popular .itempic img{
+    transform: scale(1);
+    transition-duration: 1500ms;
+}
+
+.login_outer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.login_inner{
+    position: relative;
+    top: 240px;
+    margin: 0 auto;
+    width: 386px;
+    height: 445px;
+    z-index: 1000;
+    opacity: 1!important;
+    min-width: 386px;
+    background-color: #fff;
+    border: 1px solid #F5F3EF;
+}
+
+.login_header{
+    position: absolute;
+    overflow: hidden;
+    padding: 30px 0 10px;
+    left: 45px;
+}
+
+.login_header_inner{
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: 18px;
+    background: #fff;
+    width: 306px;
+    overflow: hidden;
+}
+
+.login_header_left{
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+}
+
+.login_header_right{
+    margin-left: 55px;
+    cursor: pointer;
+    color: #999;
+    float: left;
+}
+
+.login_close{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    background-position: 0 -94px;
+}
+
+.login_main{
+    width: 300px;
+    position: absolute;
+    top: 68px;
+    left: 40px;
+}
+
+.change{
+    padding-bottom: 6px;
+    height: 26px;
+}
+
+.changeA{
+    height: 26px;
+    line-height: 26px;    
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+.phone_inputbox{
+    position: relative;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.phone_logo{
+    float: left;
+    width: 29px;
+    text-align: center;
+    padding: 7px 0 7px 7px;
+    height: 24px;
+}
+
+.phone_logoPic{
+    background: url(../images/icon_phone.png) 4px 2px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    margin-top: 0px;
+    padding-right: 7px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.phone_input{
+    position: relative;
+    float: left;
+}
+
+.input_tel{
+    height: 34px;
+    line-height: 36px;
+    padding-left: 8px;
+    width: 216px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    border: 0;
+    outline: none;
+}
+
+.input_tel::-webkit-input-placeholder,
+.input_pw::-webkit-input-placeholder{
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.pw_inputbox{
+    margin-top: 25px;
+    height: 36px;
+}
+
+.pw_input{
+    position: relative;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px;
+    width: 209px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #fff;
+    font-size: 12px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.input_pw{
+    width: 150px;
+    height: 34px;
+    line-height: 36px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    border: 0;
+    outline: none;
+}
+
+.pw_text{
+    vertical-align: top;
+    float: left;
+    margin-left: 0;
+}
+
+.pw_textA{
+    border: 1px solid #e8e8e8;
+    border-left: 0;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    display: block;
+}
+
+.submit{
+    margin-top: 50px;
+    height: 48px;
+}
+
+.submitA{
+    display: block;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #b4a078;
+    font-size: 18px;
+    line-height: 48px;
+    border-radius: 2px;
+}
+
+.login_bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background: #F5F3EF;
+    overflow: hidden;
+    width: 386px;
 }
