@@ -1295,6 +1295,7 @@ itempic{
     padding-bottom: 34px;
     background-color: #fff;
     border-top: 1px solid #e8e8e8;
+    height: 204px;
 }
 
 .footer_top_inner{
@@ -1325,7 +1326,7 @@ itempic{
     display: inline-block;
     overflow: hidden;
     width: 80px;
-    height: 100px;
+    height: 80px;
     font-size: 14px;
     background-color: #fff;
     padding-top: 25px;
@@ -1435,4 +1436,120 @@ itempic{
     cursor: pointer;
     width: 34px;
     height: 32px;
+}
+
+.footer_title{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    line-height: 1;
+}
+
+.synopsis_text{
+    text-align: left;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 22px;
+}
+
+.footer_top_synopsis{
+    padding: 0 37px;
+    text-align: center;
+    line-height: 1;
+}
+
+.footer_top_download{
+    text-align: center;
+}
+
+.footer_top_downloadPic{
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+}
+
+.footer_top_item .footer_top_download .download_text{
+    color: #b4a078;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.footer_bottom_outer{
+    height: 204px;
+    padding-top: 37px;
+    background-color: #414141;
+    box-sizing: border-box;
+}
+
+.footer_bottom_inner{
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+    height: 145px;
+}
+
+.footer_bottom_inner ul{
+    margin-bottom: 30px;
+    height: 51px;
+}
+
+.footer_bottom_inner ul li{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.footer_bottom_item{
+    color: #fff;
+    font-size: 18px;
+    line-height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 51px;
+}
+
+.footer_bottom_text{
+    float: left;
+}
+
+.footer_bottom_icon{
+    margin-right: 17px;
+    float: left;
+    height: 51px;
+    width: 51px;
+    background-image: url(../images/footer_icon.png)
+}
+
+.footer_bottom_icon1{
+    background-position: 0 -310px;
+}
+
+.footer_bottom_icon2{
+    background-position: 0 0;
+}
+
+.footer_bottom_icon3{
+    background-position: 0 -135px;
+}
+
+.footer_bottom_line{
+    height: 1px;
+    margin-bottom: 27px;
+    background-color: #4f4f4f;
+    border: 0;
+}
+
+.webinfo{
+    text-align: center;
+    color: #999;
+    position: relative;
+}
+
+.webinfo_text{
+    color: #999;
+    font-size: 12px;
+}
+
+.webinfo_cut{
+    margin: auto 13px;
 }
