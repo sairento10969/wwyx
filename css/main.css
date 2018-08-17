@@ -8,9 +8,9 @@ body {
 }
 
 
-/* *{
+*{
     box-sizing: border-box;
-} */
+}
 
 a{
     text-decoration: none;
@@ -151,7 +151,9 @@ a{
 .fixedTOP_icon,
 .footer_top_icon,
 .fixedHeader_logoPIC,
-.fixedHeader_manICON {
+.fixedHeader_manICON,
+.cp_main_top_arr
+ {
     display: inline-block;
     overflow: hidden;
     vertical-align: top;
@@ -407,19 +409,20 @@ a{
 }
 
 .topAD_box{
-    width: 10576px;
+    width: 100%;
     position: relative;
 }
 
 .topAD_pic{
     width: 1322px;
     position: absolute;
-    left: 0px;
+    left: -960px;
     top: 0px;
     height: 420px!important;
     z-index: 7;
     opacity: 0;
     transition: opacity 500ms ease;
+    margin-left: 50%;
 }
 
 .topAD_picimg{
